@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="logo.ico"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 30px;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+body {background-color: rgb(217, 225, 226);}
+    h1 {color: red;}
+    p {color: rgb(37, 37, 53);}
+  
+
+
+table, th, td {
+     border:1px solid black;
+   }
+   .city {
+     background-color: tomato;
+     color: white;
+     border: 2px solid black;
+     margin: 20px;
+     padding: 20px;
+   }    
+
+
+        table, th, td {
+          border:1px solid black;
+        }
+        #myHeader {
+          background-color: rgb(134, 47, 113);
+          color: black;
+          padding: 40px;
+          text-align: center;
+        } 
+
+
+
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+        </style>
+</head>
+<body>
+
+  <footer>
+    <p>Author: Hege Refsnes</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+  </footer>
+  
+  </body>
+
+
+  <h1>Charles limited</h1>
+    
+  <table style="width:100%">
+    <tr>
+      <th rowspan="4">class</th>
+      <th>name</th>
+      <th>surnam</th>
+      <th>age</th>
+      <th>hight</
+    </tr>
+    <tr>
+    <td>wer</td>
+      <td>Jill</td>
+      <td>56</td>
+      <td>43</td>
+    </tr>
+    <tr>
+    <td>adam</td>
+      <td>Eve</td>
+      <td>65</td>
+      <td>57</td>
+    </tr>
+    <tr>
+    <td>adam</td>
+      <td>Eve</td>
+      <td>76</td>
+      <td>57</td>
+    </tr>
+    
+    
+  </table>
+    
+<h2>rowspan style></h2>
+  <table style="width:80%">
+    <tr>
+      <th rowspan="3">Name</th>
+      <th>Age</th>
+      <th>higth</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      
+    </tr>
+    <tr>
+    
+      <td>Eve</td>
+      <td>Jackson</td>
+      
+    </tr>
+   <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>57</td>
+    </tr> 
+     <tr>
+    
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>57</td>
+    </tr> 
+     <tr>
+    
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>57</td>
+    </tr> 
+    
+     <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>57</td>
+    </tr> 
+    
+  </table>
+
+  
+
+
+
+
+
+
+
+    
+<table style ="border: 1px solid black;">
+  <tr style ="border: 1px solid black;">
+      <th>firstname</th>
+      <th>surname</th>
+      <th>AGE</th>
+      <th >date of birth</th>
+
+      <tr style ="border: 1px solid black;">
+
+
+        <h2>Computer Code</h2>
+        <p>Some programming code:</p>
+        
+        <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        </code>
+
+
+        <h2>Message from my computer:</h2>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
+        
+
+
+<td>dekou</td>
+<td>Emmanuel</td>
+<td>30</td>
+<td>13/09/1994</td>
+
+</table>
+
+
+
+<h2>Cellspacing</h2>
+<p>Change the space between the cells with the border-spacing property.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+
+
+
+
+<h2>presentation</h2>
+
+<table style="width:50%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<h2>name and age</h2>
+<table style="width:70%">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+</table>
+
+
+<h2>Set the height of the second row to 200 pixels</h2>
+
+<table style="width:50%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr style="height:100px">
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<h2>presentation</h2>
+
+<table style="width:60%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<h2>Vertical Table Headers</h2>
+
+<p>The first column becomes table headers if you set the first table cell in each table row to a TH element:</p>
+
+<table style="width:60%">
+  <tr>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>  
+    <td>50</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<table style="width:60%">
+
+ <h2> your savings</h2>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+
+
+<table>
+<h2>presentation</h2>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  
+  
+  
+
+</table>
+
+<ol>
+    <li> your dream</li>
+    <li>your focus</li>
+    <li>your plans</li>
+</ol>
+
+<ul>
+    <li>your dreams</il>
+     <li>your focus</li>
+     <li>your plans</li>
+    </ul>
+
+    <p style="border: 1px solid black">welcome to my page</p>
+<div id="feel" style="border: 1px solid black">feel free to ask any question</div>
+    
+    <h1>we are here to help you</h1>
+    
+    Lorem Ipsum <div>I am a div</div> dolor sit amet.
+    
+    <p>The yellow background is added to demonstrate the footprint of the DIV element.</p>
+
+
+    <div class="city">
+        <h2>London</h2>
+        <p>London is the capital of England.</p>
+        </div> 
+        
+        <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div class="city">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+        </div>
+     
+        
+        <h1 id="myHeader">My Header</h1>
+
+      
+        <header>
+            <h2>Cities</h2>
+          </header>
+          
+          <section>
+            <nav>https://www.w3schools.com/html/html_layout.asp
+              <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+              </ul>
+            </nav>
+            
+            <article>
+              <h1>London</h1>
+              <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+
+              <h2>Navigation Menu</h2>
+              <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+              
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
+
+
+              <h2>A Description List</h2>
+
+              <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+              </dl>
+              
+
+
+             
+              
+
+
+
+
+
+
+
+
+
+
+
+    this page is about charles limited
+    <a href="index.html">Click to go to index</a>
+</body>
+</html>
